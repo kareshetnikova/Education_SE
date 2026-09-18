@@ -18,7 +18,7 @@
 #
 # sudo apt install gdb valgrind kcachegrind
 #
-# sudo apt install coreutils linux-tools-common linux-tools-$(uname --machine)
+# sudo apt install coreutils linux-tools-common linux-tools-$(uname -r)
 #
 # sudo apt install util-linux procps locales htop
 #
@@ -154,7 +154,7 @@
 #
 # cd botan
 #
-# ./configure.py
+# ./configure.py --without-include-namespace
 #
 # sudo make install
 
